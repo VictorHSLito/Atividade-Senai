@@ -1,0 +1,179 @@
+<mxfile host="app.diagrams.net" modified="2024-01-13T19:39:27.371Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="XBxEsAlfCcGdQcNjzB0m" version="22.1.18" type="device">
+  <diagram name="Página-1" id="vOSyHtemnISbV2KRMJkQ">
+    <mxGraphModel dx="1388" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-3" target="sJcVM_jQEDr8UP1CLQVu-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-3" value="Início do Algoritmo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="10" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-5" target="sJcVM_jQEDr8UP1CLQVu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-5" value="Saldo" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="230" y="80" width="96" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="" id="sJcVM_jQEDr8UP1CLQVu-14">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-8" target="sJcVM_jQEDr8UP1CLQVu-10">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-8" value="&quot;Saldo Inicial&quot; + Saldo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="450" y="80" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-10" target="sJcVM_jQEDr8UP1CLQVu-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-10" value="encerrar = &#39;n&#39;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-16" target="sJcVM_jQEDr8UP1CLQVu-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-25" value="VERDADE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sJcVM_jQEDr8UP1CLQVu-24">
+          <mxGeometry x="-0.5556" y="-1" relative="1" as="geometry">
+            <mxPoint x="-35" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-16" target="sJcVM_jQEDr8UP1CLQVu-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-70" value="FALSO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sJcVM_jQEDr8UP1CLQVu-68">
+          <mxGeometry x="-0.7013" y="-3" relative="1" as="geometry">
+            <mxPoint x="-48" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-16" value="Encerrar = &#39;n&#39;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="270" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-18" target="sJcVM_jQEDr8UP1CLQVu-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-18" value="Tipo de entrada:" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="452" y="410" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-19" target="sJcVM_jQEDr8UP1CLQVu-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-19" value="Quantidade de peças:" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="452" y="510" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-20" target="sJcVM_jQEDr8UP1CLQVu-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-42" value="VERDADEIRO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sJcVM_jQEDr8UP1CLQVu-28">
+          <mxGeometry x="-0.0359" y="-3" relative="1" as="geometry">
+            <mxPoint x="7" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-20" target="sJcVM_jQEDr8UP1CLQVu-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-33" value="FALSO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sJcVM_jQEDr8UP1CLQVu-32">
+          <mxGeometry x="0.1867" y="1" relative="1" as="geometry">
+            <mxPoint x="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-20" value="Tipo entrada = 1&lt;br&gt;(Compra)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="600" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-21" target="sJcVM_jQEDr8UP1CLQVu-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-21" value="Saldo = Saldo + quantidade" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="625" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-29" target="sJcVM_jQEDr8UP1CLQVu-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-29" value="&quot;Entrada&quot; + quantidade" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="90" y="625" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-31" target="sJcVM_jQEDr8UP1CLQVu-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-37" value="VERDADEIRO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sJcVM_jQEDr8UP1CLQVu-36">
+          <mxGeometry x="0.1389" y="-2" relative="1" as="geometry">
+            <mxPoint x="11" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-31" target="sJcVM_jQEDr8UP1CLQVu-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-59" value="FALSO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sJcVM_jQEDr8UP1CLQVu-57">
+          <mxGeometry x="-0.2286" y="1" relative="1" as="geometry">
+            <mxPoint x="19" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-31" value="Tipo entrada = 2&lt;br&gt;(Venda)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="750" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-35" target="sJcVM_jQEDr8UP1CLQVu-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-54" value="VERDADEIRO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sJcVM_jQEDr8UP1CLQVu-53">
+          <mxGeometry x="-0.0222" y="-3" relative="1" as="geometry">
+            <mxPoint x="3" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-35" target="sJcVM_jQEDr8UP1CLQVu-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-56" value="FALSO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sJcVM_jQEDr8UP1CLQVu-55">
+          <mxGeometry x="-0.15" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-35" value="Saldo &amp;gt;= quantidade" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="750" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-38" target="sJcVM_jQEDr8UP1CLQVu-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-38" value="Saldo = Saldo - quantidade" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="775" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-39" target="sJcVM_jQEDr8UP1CLQVu-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-39" value="&quot;Saldo&lt;br&gt;&amp;nbsp;insuficiente&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="900" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-40" value="&quot;Saída&quot; + quantidade" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="95" y="860" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-41" target="sJcVM_jQEDr8UP1CLQVu-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-41" value="Saldo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="450" y="930" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-58" target="sJcVM_jQEDr8UP1CLQVu-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-58" value="Encerrar? [S/N]" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1020" width="88" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-40" target="sJcVM_jQEDr8UP1CLQVu-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sJcVM_jQEDr8UP1CLQVu-66" target="sJcVM_jQEDr8UP1CLQVu-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-66" value="&quot;Sistema encerrado&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1025" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sJcVM_jQEDr8UP1CLQVu-67" value="FIM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1109" width="80" height="31" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
